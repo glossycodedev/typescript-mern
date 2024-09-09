@@ -1,9 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 export default function ProductDetails() {
   return (
     <div>
-      <h2>ProductDetails</h2>
+      <Helmet>
+        <title>Product Page</title>
+      </Helmet>
     </div>
   )
 }

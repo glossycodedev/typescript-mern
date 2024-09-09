@@ -5,7 +5,12 @@ function App() {
   return (
     <div className="d-flex flex-column vh-100">
       <header>
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar
+          bg="blue"
+          variant="dark"
+          expand="lg"
+          style={{ backgroundColor: 'black' }}
+        >
           <Container>
             <Navbar.Brand>TS Ecommerce</Navbar.Brand>
             <Nav>

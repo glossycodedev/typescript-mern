@@ -8,9 +8,9 @@ export const sampleProducts: Product[] = [
     category: 'Flowers',
     brand: 'Flowers',
     price: 35,
-    countInStock: 20,
+    countInStock: 0,
     description: 'Gift Flowers',
-    rating: 4.5,
+    rating: 5,
     numReviews: 10,
   },
   {
